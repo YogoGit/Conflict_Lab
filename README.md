@@ -3,9 +3,9 @@ Lab to show conflict resolution
 To demonstrate, clone this repository, and then attempt to merge two
 branches which have conflicting commits to the master branch
 
-View the changes on the master branch
+View the changes on the main branch
 ```sh
-% git checkout master
+% git checkout main
 % git log
 ```
 Note the changes in the feature branch
@@ -14,9 +14,9 @@ Note the changes in the feature branch
 % git log
 ```
 
-Merge the changes on feature1 onto the master branch and verify
+Merge the changes on feature1 onto the main branch and verify
 ```sh
-% git checkout master
+% git checkout main
 % git merge feature1
 % cat file.txt
 ```
@@ -28,9 +28,9 @@ Note the changes in the second feature branch
 % cat file.txt
 ```
 
-Merge the changes on feature2 onto the master branch
+Merge the changes on feature2 onto the main branch
 ```sh
-% git checkout master
+% git checkout main
 % git merge feature2
 ```
 
